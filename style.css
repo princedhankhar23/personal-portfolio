@@ -192,12 +192,17 @@ section h2 {
 }
 
 .skill-card{
-    background:var(--white);
-    padding:35px;
-    border-radius:16px;
-    text-align:center;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:var(--transition);
+     background: var(--white);
+    padding: 35px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transition: var(--transition);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
 } 
 
 .skill-card:hover{
@@ -206,6 +211,7 @@ section h2 {
 
 .skill-card h3 {
     font-size: 24px;
+    margin:0;
 }
 
 .projects-container {
